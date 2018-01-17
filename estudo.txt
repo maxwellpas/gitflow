@@ -1,0 +1,9 @@
+Trabalhar com:
+- Features (funcionalidade)
+- Releases
+- Hotfixes
+- Bugfixes
+- supports
+
+// para mac
+brew install git-flow

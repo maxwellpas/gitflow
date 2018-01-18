@@ -7,3 +7,17 @@ Trabalhar com:
 
 // para mac
 brew install git-flow
+
+// comandos
+git flow feature start feature1 -- para iniciar a funcionalidade
+git flow feature finish feature1 -- termina e merge com o develop e exclui a feature
+
+// Para fazer um merge, vc entra no branch que deseja 
+git checkout master
+
+//e faz o comando
+git merge develop
+
+
+//Para publicar um feature para compartilhar com alguém
+git flow feature publish feature3

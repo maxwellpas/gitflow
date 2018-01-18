@@ -12,6 +12,8 @@ brew install git-flow
 git flow feature start feature1 -- para iniciar a funcionalidade
 git flow feature finish feature1 -- termina e merge com o develop e exclui a feature
 
+
+
 // Para fazer um merge, vc entra no branch que deseja 
 git checkout master
 
@@ -19,5 +21,7 @@ git checkout master
 git merge develop
 
 
+
 //Para publicar um feature para compartilhar com alguém
+// adiciona o origin primeiro
 git flow feature publish feature3

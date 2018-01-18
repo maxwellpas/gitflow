@@ -85,7 +85,7 @@ git flow hotfix finish 0.0.4
 ------------------------------------------------------------------
 // Criando o bugfix
 // padrão bugfix/*
-
+git flow bugfix start error_file
 
 
 

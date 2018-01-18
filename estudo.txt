@@ -61,6 +61,8 @@ git flow release start 0.0.1 //criando
 touch release0.0.1.txt
 git add release0.0.1.txt
 git commit -m "Adicionando arquivo release0.0.1.txt"
+git flow release finish 0.0.1 // terminando a release/tag
+
 git flow release publish 0.0.2 // publicando
 
 
@@ -70,8 +72,20 @@ git flow release track 0.0.3
 git flow release // listando as releases
 
 
--------------------------------------------------------------------
+------------------------------------------------------------------
 // Hotfixes - branch epspecificos para correções de erros
+// prefixo padrão hotfix/*, o nome é sempre superior a release
+// mescla também no develop e master
+// sempre que gerar um hotfixes, gera a partir do master(que está em produção) e só está corrigindo o erro que está em produção
+
+git flow hotfix start 0.0.4
+git flow hotfix finish 0.0.4
+
+
+------------------------------------------------------------------
+// Criando o bugfix
+// padrão bugfix/*
+
 
 
 

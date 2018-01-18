@@ -45,11 +45,33 @@ git flow feature list ou git flow feature
 
 
 -------------------------------------------------------------------
+// Criando release
+
+// Toda release começa release/*. Quando decidir criar uma versão, cria-se uma release
+
+// iniciando uma release
+git flow release start 0.0.1
+
+
+-------------------------------------------------------------------
 // Administrando release
 
+git flow release start 0.0.1 //criando
+
+touch release0.0.1.txt
+git add release0.0.1.txt
+git commit -m "Adicionando arquivo release0.0.1.txt"
+git flow release publish 0.0.2 // publicando
 
 
+// pegar a release online
+git flow release track 0.0.3
 
+git flow release // listando as releases
+
+
+-------------------------------------------------------------------
+// Hotfixes - branch epspecificos para correções de erros
 
 
 

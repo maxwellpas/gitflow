@@ -1,8 +1,8 @@
 Trabalhar com:
 - Features (funcionalidade)
-- Releases
-- Hotfixes
-- Bugfixes
+- Releases (para criar versão)
+- Hotfixes (são bugs que estã em produção e precisa ser feito na hora)
+- Bugfixes (erros que pode ser corrigidos a qualquer hora)
 - supports
 
 // para mac
